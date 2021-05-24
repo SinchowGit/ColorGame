@@ -1,0 +1,65 @@
+.square{
+			
+			width: 30%;
+			padding-bottom: 30%;
+			background: #232323;
+			float: left;
+			margin: 1.6%;
+			border-radius: 30%;
+			transition: background 0.5s;
+		}
+.container{
+			margin: 0 auto;
+			width: 50%;
+		}
+body{
+	background: black;
+	text-align: center;
+	margin: 0;
+}
+h1{
+	color: white;
+	background: steelblue;
+	margin: 0 auto;
+	
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#result{
+	color: black;
+
+
+}
+#strip{
+	background: white;
+	height: 30px;
+
+}
+button{
+	background: white;
+	border: 0px ;
+	margin-top: : 0;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: 700;
+	height: 100%;
+	transition: all 0.5s;
+	outline: none;
+}
+.selected{
+	background: steelblue;
+	color: white;
+}
+#goal{
+	font-size: 2em;
+}
+#result{
+	display: inline-block;
+	width: 20%;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+
+}
